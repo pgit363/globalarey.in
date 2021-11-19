@@ -1,0 +1,18 @@
+[13-Jun-2021 17:57:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/blellyvg/public_html/websites/globalarey.in/career_guidance/class/users.php:26
+Stack trace:
+#0 /home/blellyvg/public_html/websites/globalarey.in/career_guidance/api/user/read.php(75): Users->getUsers()
+#1 /home/blellyvg/public_html/websites/globalarey.in/career_guidance/api/user/read.php(38): get()
+#2 {main}
+  thrown in /home/blellyvg/public_html/websites/globalarey.in/career_guidance/class/users.php on line 26
+[23-Jun-2021 16:44:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/blellyvg/public_html/websites/globalarey.in/career_guidance/class/users.php:105
+Stack trace:
+#0 /home/blellyvg/public_html/websites/globalarey.in/career_guidance/api/user/login.php(88): Users->loginUser()
+#1 /home/blellyvg/public_html/websites/globalarey.in/career_guidance/api/user/login.php(38): getSingle()
+#2 {main}
+  thrown in /home/blellyvg/public_html/websites/globalarey.in/career_guidance/class/users.php on line 105
+[23-Jun-2021 17:30:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/blellyvg/public_html/websites/globalarey.in/career_guidance/class/users.php:105
+Stack trace:
+#0 /home/blellyvg/public_html/websites/globalarey.in/career_guidance/api/user/login.php(88): Users->loginUser()
+#1 /home/blellyvg/public_html/websites/globalarey.in/career_guidance/api/user/login.php(38): getSingle()
+#2 {main}
+  thrown in /home/blellyvg/public_html/websites/globalarey.in/career_guidance/class/users.php on line 105
